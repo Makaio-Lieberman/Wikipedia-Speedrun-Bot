@@ -43,14 +43,13 @@ This bot automates the Wikipedia Speedrun using the following approach:
 
 3. **Install dependencies**:
    ```bash
-   pip install playwright playwright-stealth sentence-transformers torch transformers scikit-learn scipy numpy httpx tqdm rich
+   pip install -r requirements.txt
    ```
 
 4. **Install Playwright browsers**:
    ```bash
    playwright install chromium
    ```
-
 ## Usage
 
 Run the bot:
